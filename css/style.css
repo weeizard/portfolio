@@ -1,0 +1,64 @@
+body{
+  background-color: #F8F1F1;
+}
+/*
+  Header/Nav Bar
+*/
+.nav-container{
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+li{
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #025464;
+}
+
+/*
+  Brief Introduction
+*/
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#prof-pic{
+  border-radius: 100px;
+}
+
+.bio-container{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 40px;
+}
+
+.bio-container h2{
+  text-align: center;
+}
+
+.proj-container h2{
+  color: #E57C23;
+}
+
+
+
